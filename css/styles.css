@@ -1,0 +1,171 @@
+/*Загальне*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/*Хедер*/
+
+.header {
+  background: #fff;
+}
+
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-span-header {
+  color: #2e2f42;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.mail-tel {
+  font-style: normal;
+}
+.mail-tel-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.mail-tel-link:hover,
+.mail-tel-link:focus {
+  color: #404bbf;
+}
+
+/* Основна*/
+
+.hero {
+  background: #2e2f42;
+}
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* Для заголовків h2*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+/*Для заголовків h3*/
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+/* Для абзаців p*/
+.section-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*Для секції Features*/
+.features {
+}
+
+/*Для секції Team*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-members {
+  background-color: #ffffff;
+}
+/*Для секції Portfolio*/
+.portfolio {
+}
+
+/*Для Футера*/
+.footer {
+  background: #2e2f42;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-span-footer {
+  color: #f4f4fd;
+}
+.footer-paragraph {
+  color: #f4f4fd;
+}
+a {
+  text-decoration: none;
+}
