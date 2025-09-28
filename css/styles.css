@@ -81,8 +81,37 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/* Для заголовків h2*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
 
-/*----------------HEADER-------------------------------*/
+/*Для заголовків h3*/
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+/* Для абзаців p*/
+.section-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*------------------------------ HEADER -------------------------------*/
 
 .header {
   background: #fff;
@@ -162,7 +191,7 @@ p {
   color: #404bbf;
 }
 
-/* ---------------- HERO ---------------------*/
+/* --------------------------  HERO ----------------------------*/
 
 .hero {
   background: #2e2f42;
@@ -192,7 +221,7 @@ p {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  max-width: 169px;
+  min-width: 169px;
   height: 56px;
   text-align: center;
   white-space: nowrap;
@@ -202,37 +231,7 @@ p {
   background-color: #404bbf;
 }
 
-/* Для заголовків h2*/
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-}
-
-/*Для заголовків h3*/
-.section-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-transform: capitalize;
-}
-
-/* Для абзаців p*/
-.section-paragraph {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/*---- FEATURES --------------------------------------------*/
+/*------------------------ FEATURES --------------------------------------------*/
 .container-features {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -252,7 +251,7 @@ p {
 .features-item .section-paragraph {
   text-align: left;
 }
-/*--------- TEAM -------------------------------------------*/
+/*---------------------------- TEAM -------------------------------------------*/
 .team {
   background-color: #f4f4fd;
 }
@@ -263,7 +262,7 @@ p {
   align-items: center;
 }
 .section-title-team {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section-subtitle {
   text-align: center;
@@ -287,7 +286,7 @@ p {
 .name-position {
   padding: 32px 0;
 }
-/*---------------- PORTFOLIO------------------------------*/
+/*------------------------ PORTFOLIO------------------------------*/
 .container-portfolio {
   padding: 120px 0 120px 0;
   display: block;
@@ -318,7 +317,7 @@ p {
   border-top: none;
 }
 
-/*------------FOOTER----------------------------------------*/
+/*---------------------------------FOOTER----------------------------------------*/
 .footer {
   background: #2e2f42;
 }
@@ -328,7 +327,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px; 0;
+  padding: 100px 0;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
