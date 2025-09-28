@@ -82,11 +82,10 @@ p {
   overflow: hidden;
 }
 
-/*Хедер*/
+/*----------------HEADER-------------------------------*/
 
 .header {
   background: #fff;
-  height: 72px;
 }
 .container-header {
   display: flex;
@@ -250,6 +249,7 @@ p {
   align-items: center;
 }
 .section-title-team {
+  padding-top: 120px;
 }
 .team-list {
   display: flex;
@@ -261,10 +261,14 @@ p {
 }
 .team-members {
   background-color: #ffffff;
+  margin-bottom: 120px;
 }
 /*---------------- PORTFOLIO------------------------------*/
 .container-portfolio {
   margin-bottom: 134px;
+}
+.title-portfolio {
+  margin-bottom: 32px;
 }
 .portfolio-list {
   display: flex;
@@ -279,7 +283,6 @@ p {
   margin-bottom: 24px;
   padding-bottom: 32px;
 }
-
 /*------------FOOTER----------------------------------------*/
 .footer {
   background: #2e2f42;
